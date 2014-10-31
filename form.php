@@ -1,3 +1,3 @@
 <?php
-echo"hello enter  your name"
-?  
+echo"hello enter  your nameand email"
+?i  
