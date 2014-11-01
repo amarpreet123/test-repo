@@ -2,7 +2,7 @@
 $colours=array("red","pink","black","pink","blue","green");
 foreach($colours as $value)
 {
-echo "$value <br>";
+echo "$value.hi <br>";
 }
 ?>
 
