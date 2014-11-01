@@ -1,7 +1,7 @@
 <? php
 function p()
 {
-echo"hello world";
+echo"hello world. how r u";
 }
 p();
 ?>
