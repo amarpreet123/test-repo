@@ -1,9 +1,11 @@
-<? php
+<?php
+$final_year_ranks = array();
+$final_year_ranks['I'] = 'Amarpreet';
+$final_year_ranks['II'] = 'Harish';
+$final_year_ranks['III'] = 'Vijay';
 
-$salaries=array();
-$salaries["preeti"]=2000;
-$salaries["john"]=2000;
-$salaries["jibin"]=2000;
-foreach( $salaries as $employeename = $amount;
-echo  "salaries paid to $employeename is $amount /n";
+foreach ($final_year_ranks as $rank => $name){
+	echo "Rank of $name in Class is $rank\n";
+}
+
 ?>
