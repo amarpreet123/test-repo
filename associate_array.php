@@ -1,11 +1,13 @@
 <?php
-$final_year_ranks = array();
-$final_year_ranks['I'] = 'Amarpreet';
-$final_year_ranks['II'] = 'Harish';
-$final_year_ranks['III'] = 'Vijay';
+$employeeAges;
+$employeeAges["Lisa"] = "28";
+$employeeAges["Jack"] = "16";
+$employeeAges["Ryan"] = "35";
+$employeeAges["Rachel"] = "46";
+$employeeAges["Grace"] = "34";
 
-foreach ($final_year_ranks as $rank => $name){
-	echo "Rank of $name in Class is $rank\n";
+foreach( $employeeAges as $name => $age){
+	echo "Name: $name, Age: $age <br />";
 }
 
 ?>
